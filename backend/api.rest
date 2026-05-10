@@ -1,26 +1,26 @@
 ### Test Server
-GET http://localhost:3000
+GET https://notes-backend-514828886605.asia-southeast2.run.app/notes
 
 ### Tambah Catatan
-POST http://localhost:3000/notes
+POST https://notes-backend-514828886605.asia-southeast2.run.app/notes
 Content-Type: application/json
 
 {
-  "judul": "Catatan pertama",
+  "judul": "tes lewat backend",
   "isi": "Ini isi catatan dari REST Client"
 }
 
 ### Ambil Semua Catatan
-GET http://localhost:3000/notes
+GET https://notes-backend-514828886605.asia-southeast2.run.app/notes
 
 ### Update Catatan
-PUT http://localhost:3000/notes/1
+PUT https://notes-backend-514828886605.asia-southeast2.run.app/notes/1
 Content-Type: application/json
 
 {
-  "judul": "Catatan Updated",
+  "judul": "Catatan Updated lewat backend",
   "isi": "Isi sudah diubah"
 }
 
 ### Hapus Catatan
-DELETE http://localhost:3000/notes/1
+DELETE https://notes-backend-514828886605.asia-southeast2.run.app/notes/1
