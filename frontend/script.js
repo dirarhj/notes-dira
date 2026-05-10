@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/notes";
+const API = "https://notes-backend-514828886605.asia-southeast2.run.app/notes";
 
 let editId = null;
 
