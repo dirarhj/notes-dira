@@ -1,0 +1,26 @@
+### Test Server
+GET http://localhost:3000
+
+### Tambah Catatan
+POST http://localhost:3000/notes
+Content-Type: application/json
+
+{
+  "judul": "Catatan pertama",
+  "isi": "Ini isi catatan dari REST Client"
+}
+
+### Ambil Semua Catatan
+GET http://localhost:3000/notes
+
+### Update Catatan
+PUT http://localhost:3000/notes/1
+Content-Type: application/json
+
+{
+  "judul": "Catatan Updated",
+  "isi": "Isi sudah diubah"
+}
+
+### Hapus Catatan
+DELETE http://localhost:3000/notes/1

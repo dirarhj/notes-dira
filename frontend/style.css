@@ -1,0 +1,73 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f5f7fa;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+textarea {
+  width: 95%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.grid {
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+}
+
+.note {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.note h3 {
+  margin: 0;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions button {
+  width: auto;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
+.edit {
+  background: orange;
+}
+
+.delete {
+  background: red;
+}
